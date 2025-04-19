@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  border: 1px solid red; /* Solo para visualización, puedes quitarlo */
+}
+
+.col-sm-12 {
+  background-color: blue;
+  border: 5px solid green; /* Solo para visualización, puedes quitarlo */
+
+  display: flex;
+  flex-direction: row; /* Asegura que los hijos se alineen en fila */
+}
+
+.academicGrid {
+  display: flex; /* También necesitas que .academicGrid sea flex para alinear sus hijos (.g-head y las columnas de datos) */
+  flex-direction: row; /* Asegura que .g-head y las columnas de datos se alineen en fila */
+}
+
+.g-head {
+  display: flex; /* Necesario para que los elementos dentro del encabezado se alineen en fila */
+  flex-direction: row;
+}
+
+.g-col {
+  background-color: darkslategray;
+  border: 2px solid yellow; /* Solo para visualización, puedes quitarlo */
+  border-bottom: 6px solid magenta; /* Solo para visualización, puedes quitarlo */
+  /* width: 11.1111%; Esta propiedad es correcta para el ancho de cada columna */
+}
+
+.g-row {
+  border: 1px solid white; /* Solo para visualización, puedes quitarlo */
+  margin-bottom: 2px; /* Espacio entre filas */
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.purple {
+  background-color: plum;
+}
+
+.pink {
+  background-color: lightpink;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+
+.empty {
+  background-color: transparent; /* Para celdas vacías */
+  border: none;
+}
