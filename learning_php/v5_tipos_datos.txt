@@ -1,0 +1,8 @@
+types and type casting in PHP
+
+- php is dinamically typed
+- also known as weaklly typed language.
+- you are not required to define a type of your variable
+- the type of the variable can change after it has been defined
+
+- dynamically typed language means: the type checked happnes at RUNTIME
