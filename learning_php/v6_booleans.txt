@@ -1,0 +1,40 @@
+un Booleano es una representacion simple of a thruth value
+
+- puede ser verdadero o falso
+- true y false son constantes predefinidas que vienene con PHP
+- son case sensitive
+- podrias usar true, TRUE, TruE, pero es mejor apegarse a lo establecido y ser consistente, usar true/false
+- son mayormente usados dentro de estructuras de control, loops, if-else conditionals
+
+======
+hay otros tipos de datos que pueden ser convertidos a boolean "on the fly" by PHP
+
+por ejemplo:
+
+Se convierten a fase;
+- itegers like 0, -0 siempre seran considerados FALSE;
+- floats 0.0, -0.0 = false;
+- cadena vacia "" = false;
+- cadena con un 0 = false;
+- arreglo vacio [] = false;
+- tipo null = false;
+
+- todo lo que NO sea una cadena vacia va a evaluar a true
+
+Practicamente todo lo demas se evalua a true, incluso los numeros negativos
+
+=============
+imprimir boolean
+
+- la razon por la que al imprimir un booleano, sea true imprime 1, y false imprime "" una cadena vacia
+  imprime una cadena sin elementos, simplemente ""
+  la razon es que echo hace un casteo de tipo, es el quivalente a tener:
+  echo (string) true;
+
+- para resolver esto podemos usar var_dump();
+
+============
+podemos usarla funcion is_bool()
+
+- se usa para checar el tipo
+- retorna true or false dependiendo el valor de la variable

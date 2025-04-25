@@ -5,6 +5,15 @@ function br($quantity = 1) {
   }
   echo '<hr>';
 }
+function hr($quantity = 1) {
+  
+  echo '<hr>';
+}
+function brr($quantity = 1) {
+  for ($i = 0; $i < $quantity; $i ++) {
+    print '<br>';
+  }
+}
 
 function geth1 ($arg) {
   return "<h1>$arg</h1>";

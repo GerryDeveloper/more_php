@@ -6,3 +6,59 @@ types and type casting in PHP
 - the type of the variable can change after it has been defined
 
 - dynamically typed language means: the type checked happnes at RUNTIME
+- tipado estatico significa que el chequeo de tipo pass en COMPILE TIME
+- Java, C++ & C# are statically typed languages
+
+- hence PHP is more flexible, because is dinamicallyl typed, but is slower
+
+- PHP is more flexible
+- that flexibility come's at a price of performance and can sometimes result in unexpected bugs 
+- in latter versions PHP even suports strict types
+
+- php suports 10 primitive types:
+
+4 Scalar types:
+  1- bool - simple representation of a thruth value: true / false
+  2- int - whole numbers: 1,2,3,0,-1,-100,...
+  3- float - decimal points: 1.5, 1.0111, 0.005, -15.09
+  4- string - series de caracteres encerradas entre "" o '': "string", 'hola'
+
+4 compound types:
+  5- array - basicamente una lista de items, puede ser de varios tipos
+  6- object
+  7- callable
+  8- iterable
+
+2 special types:
+  9- resource
+  10- null
+
+2 pesudo tipos  (mainlly used for readabillity)
+ 11- mixed (creo)
+ 12- void
+
+ =========
+ Obtener el tipo de una variable, 2 maneras
+ - gettype() para obtener el tipo de la variable mandada como contenido de la funcion
+ - var_dump() basicamente imprime todo lo que conoce sobre la expresion que le madnas
+
+ ==========
+Type Hinting en PHP
+
+ El type hinting en PHP es una característica que te permite especificar el tipo de 
+ dato esperado para los argumentos de una función o método, así como el tipo de dato 
+ que una función o método debería retornar.
+
+===========
+Scalar Types
+
+En PHP, un scalar type se refiere a un tipo de dato que representa un único valor. 
+En otras palabras, un valor escalar no es una colección de otros valores, como lo son 
+los arrays o los objetos.
+
+===========
+Type juggling
+
+El type juggling (o "malabarismo de tipos") en PHP se refiere a la forma en que 
+el lenguaje automáticamente convierte el tipo de dato de una variable durante la 
+ejecución del script, dependiendo del contexto en el que se utiliza.
