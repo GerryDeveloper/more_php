@@ -1,0 +1,18 @@
+* {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody td {  /* Eliminé el > porque no es necesario */
+  border: 8px solid magenta;
+}
+
+thead td {  /* Eliminé el > porque no es necesario */
+  border: 1px solid green;
+}

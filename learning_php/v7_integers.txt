@@ -1,0 +1,14 @@
+Integers 
+
+- los enteros son numeros sin decimales
+- numeros enteros, 1,2,3,0,-1,-2
+
+- el tamanio de los enteros cambia dependiendo de la plataforma
+- puedes checar eso usando la constante predefinida 
+- PHP_INT_MAX
+
+- los int pueden ser representados en base 10 o base hexadecimal
+
+
+
+

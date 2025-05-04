@@ -28,9 +28,16 @@ function geth4 ($arg) {
   return "<h4>$arg</h4>";
 }
 function geth5 ($arg) {
-  return "<h5>$arg</h4>";
+  return "<h5>$arg</h5>";
+}
+function geth6 ($arg) {
+  return "<h6>$arg</h6>";
 }
 
 function getp ($arg) {
   return "<p>$arg</p>";
+}
+
+function printhr() {
+  echo '<hr>';
 }
