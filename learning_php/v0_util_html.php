@@ -41,3 +41,14 @@ function getp ($arg) {
 function printhr() {
   echo '<hr>';
 }
+
+function br2($quantity = 0) {
+  $quantity = (boolean) $quantity;
+  if (!$quantity) {
+    echo '<br>';
+  } else {
+    for ($i=0; $i < $quantity; $i++) { 
+      echo '<br>';
+    }
+  }
+}
